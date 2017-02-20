@@ -1,0 +1,60 @@
+h5 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #404040;
+}
+
+/* BUTTON FOCUS  */
+    input[type=btn10]:focus {
+    outline: 0;    
+}
+
+
+/* SEARCH FIELD */
+
+input[type=text] {
+    margin-top: 200px; /* <- tudom, geci csúnya megoldás (AZ) */
+    text-indent: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #404040;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    }
+
+/* BUTTON STYLE */
+
+.btn10 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.btn10:hover {
+    font-size: 16px;
+    color: #fff;
+}
